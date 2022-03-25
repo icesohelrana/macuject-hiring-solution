@@ -1,0 +1,13 @@
+name: ML-challenge-env
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - pip
+  - Python=3.6.8
+  - pytorch=1.7.0
+  - pip:
+    - matplotlib
+    - ipykernel
+    - pandas
